@@ -1,6 +1,6 @@
 import { useEffect, useState, type HTMLAttributes } from "react";
 import { ChevronLeft } from "lucide-react";
-import { useLocation, useNavigate, useNavigationType } from "react-router";
+import { useNavigate, useNavigationType } from "react-router";
 interface BaseLayoutProps extends HTMLAttributes<HTMLDivElement> {
   title?: string;
   actions?: React.ReactNode;
