@@ -1,8 +1,10 @@
 import { createBrowserRouter, Navigate } from "react-router";
 import App from "./app";
-import RequestsPage from "@/pages/request/requests.page";
-import RequestNewPage from "@/pages/request/request-new.page";
-import RequestDetailPage from "@/pages/request/request-detail.page";
+import {
+  RequestsPage,
+  RequestNewPage,
+  RequestDetailPage,
+} from "@/pages/request";
 
 const router = createBrowserRouter([
   {
