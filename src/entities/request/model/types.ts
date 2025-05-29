@@ -2,6 +2,14 @@
 
 export enum TRequestCategory {
   DEFAULT = "По умолчанию",
+  TECH_ERROR = "Техническая ошибка",
+  BILLING = "Проблема с оплатой",
+  FEATURE_REQUEST = "Запрос новой функции",
+  BUG_REPORT = "Сообщение об ошибке",
+  CONTENT_ISSUE = "Проблема с контентом",
+  PERFORMANCE = "Проблема с производительностью",
+  ACCESS_ISSUE = "Проблема с доступом",
+  OTHER = "Другое",
 }
 
 export type TRequestCategoryKey = keyof typeof TRequestCategory;
