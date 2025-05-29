@@ -12,7 +12,6 @@ const BaseLayout: React.FC<BaseLayoutProps> = ({
   children,
 }) => {
   const navigate = useNavigate();
-  const location = useLocation();
   const navigationType = useNavigationType();
   const [canGoBack, setCanGoBack] = useState(false);
 
