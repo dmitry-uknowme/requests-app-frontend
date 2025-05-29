@@ -11,8 +11,8 @@ export type TRequest = {
   title: string;
   description: string;
   created_at: number;
-  category: string;
-  // category: TRequestCategory;
+  // category: string;
+  category: TRequestCategory;
 };
 
 // export type TRequestReducerStore = {
